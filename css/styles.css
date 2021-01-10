@@ -1,0 +1,247 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper{
+    background-color: #ffffff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px 0px rgba(0,0,0,0.15);
+}
+.sidebar{
+
+    background-color: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+}
+.photo{
+    width: 370px;
+}
+.aboutme{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.contacts{
+    padding-left: 40px;
+    padding-top: 40px;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+.contacts-title{
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.contact-link{
+    opacity: 0.5;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+color: #ffffff;
+}
+
+.contacts-type{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.tech-skills-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.tech-skills-container{
+    margin-left: 40px; 
+    margin-right: 40px ;
+    margin-top: 55px;
+}
+
+.tech-skills-li{
+    width: 370px;
+    height: 1319px;
+    color: #ffffff;
+    line-height:1.8;
+}
+
+ul{
+    color: #e76519;
+    width: 370px;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.li-text{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+
+.soft-skills-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+.soft-skill-container{
+    margin-left: 40px; 
+    margin-right: 40px ;
+    margin-top: 55px;
+}
+
+.profession-name{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-bottom: 23px;
+}
+.full-name{
+    font-size: 45px;
+    line-height: 89px;
+    font-weight: 700;
+    color: #000000;
+}
+.description{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #595959;
+    margin-top: 24px;
+}
+
+.info-container{
+    margin-bottom: 54px;
+}
+
+.project-name{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 18px;
+}
+.project-link{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #595959;
+}
+.tech-name{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #595959;
+}
+.dots{
+    color: #b6b0b0;
+    font-weight: 100;
+}
+.project-li{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.project-container{
+    margin-bottom: 34px;
+}
+.experience-title{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.occupation-name{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    margin-bottom: 15px;
+}
+.company{
+    color: #ff6b08;
+}
+.occupation-period{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #a8a8a8;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+experiense-ul{
+    margin-top: 24;
+}
+.experiense-li{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #595959
+}
+.step{
+    margin-bottom: 24px;
+}
+.education-container{
+    display: block;
+    margin-top: 60px;
+}
+
+.education-title{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.education-name{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #ff6b08;
+    display: block;
+}
+
+.delimeter{
+    color: black;
+}
